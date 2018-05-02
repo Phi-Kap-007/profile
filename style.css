@@ -1,0 +1,43 @@
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #017EAF;
+  font-size: 22px;
+}
+
+h2{
+  color: #326174;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+.card{
+
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
